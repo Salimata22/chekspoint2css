@@ -219,9 +219,11 @@ li{
 }
 
 .grandtitre{
-    
-    width: 100%;
+    display: flex;
+    align-items: end;
+    width: 85%;
     height: 20%;
+    
     display: flex;
     align-items: start;
     font-family: 'Kumbh Sans',
@@ -229,9 +231,10 @@ li{
 }
 
 .paragraphe{
-    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 90%;
     height: 20%;
-    padding-top: 2rem;
     padding-left: 1rem;
     Font-size: 16px;
     color:  hsl(219, 9%, 45%);
@@ -272,9 +275,10 @@ li{
 }
 
 .bouton{
-    width: 100%;
+    width: 80%;
     height: 30%;
     display: flex;
+    
 
 }
 
@@ -300,6 +304,7 @@ li{
     width: 60%;
     background-color: hsl(26, 100%, 55%);
     margin-left: 1rem;
+    padding-right: 2rem;
     height: 40px;
     background-position: center;
     border-top-left-radius: 0.5rem;
@@ -307,6 +312,7 @@ li{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     color: hsl(0, 0%, 100%);
+    border: 1px solid red;
 }
 
 .cart img{
